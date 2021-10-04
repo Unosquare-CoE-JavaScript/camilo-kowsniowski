@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  background: #3a3a3a;
+}
+
+body {
+  margin: 0;
+}
+.titles {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-shadow: 5px 5px 4px #741188;
+  color: #fff;
+}
