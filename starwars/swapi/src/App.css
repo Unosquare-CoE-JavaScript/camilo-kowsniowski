@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
-.App-header {
-  background-color: #282c34;
+.Background {
+  background-image: url('./img/stasr\ wars\ 2.jpeg');
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,9 +11,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Montserrat;
 }
-.item {
-  background-color: #fb7813;
+.button {
+  text-decoration: none;
+  background-color: #ba7e45;
+  color: white;
   text-align: center;
   border: solid;
   border-radius: 10px;
@@ -21,21 +25,21 @@
   width: 200px;
 }
 
+.title {
+  text-decoration: none;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: Montserrat;
+}
+
 .border {
   border: 2px #000 solid;
+  border-radius: 15px;
 }
 
 .flex-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: center;
 }
