@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import Menu from './components/Menu';
-import Home from './components/Home';
+import Navbar from './components/Navbar/Navbar';
+
 import People from './components/People';
 import Planets from './components/Planets';
 
 function App() {
   const [people, setPeople] = useState([]);
   const [planets, setPlanets] = useState([]);
-  const [loading, setLoading] = useState([]);
+  // const [loading, setLoading] = useState([]);
 
   useEffect(() => {
     // data fetch opf peoples
@@ -34,14 +34,13 @@ function App() {
   return (
     <div className='App'>
       <header className='Background'>
-        <BrowserRouter>
-          <Menu />
+        <Router>
+          <Navbar />
           <Routes>
-            <Route path='/' element={<Home />} />
             <Route path='/people' element={<People data={people} />} />
             <Route path='/planets' element={<Planets data={planets} />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </header>
     </div>
   );

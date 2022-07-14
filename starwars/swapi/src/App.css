@@ -2,44 +2,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .Background {
-  background-image: url('./img/stasr\ wars\ 2.jpeg');
-
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: Montserrat;
-}
-.button {
-  text-decoration: none;
-  background-color: #ba7e45;
-  color: white;
-  text-align: center;
-  border: solid;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-  width: 200px;
-}
-
-.title {
-  text-decoration: none;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: Montserrat;
-}
-
-.border {
-  border: 2px #000 solid;
-  border-radius: 15px;
-}
-
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* background-image: url('./img/stasr\ wars\ 2.jpeg'); */
 }
