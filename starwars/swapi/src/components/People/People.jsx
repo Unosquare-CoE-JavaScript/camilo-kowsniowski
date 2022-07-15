@@ -1,38 +1,36 @@
 import React from 'react';
-import '../components/Planets.css';
+import './People.css';
 
-const Planets = ({ data }) => {
+const People = ({ data }) => {
   return (
     <>
-      {data.map((planets, i) => {
+      {data.map((people, i) => {
         return (
           <>
             <div class='card-container'>
               <div class='cards' key={i}>
                 <div class='card-title'>
-                  <h4>Planets Data</h4>
+                  <h4>Character Data</h4>
                 </div>
                 <div class='card-text'>
                   {' '}
-                  <span class='card-text-data'>Name: {planets.name}</span>
+                  <span class='card-text-data'>Name: {people.name}</span>
                 </div>
                 <div class='card-text'>
                   {' '}
-                  <span class='card-text-data'>
-                    Rotation Period: {planets.rotation_period}
-                  </span>
+                  <span class='card-text-data'>Height: {people.height}</span>
                 </div>
                 <div class='card-text'>
                   {' '}
-                  <span>Climate: {planets.climate}</span>
+                  <span>Mass: {people.mass}</span>
                 </div>
                 <div class='card-text'>
                   {' '}
-                  <span>Terrain: {planets.terrain}</span>
+                  <span>Hair Color: {people.hair_color}</span>
                 </div>
                 <div class='card-text'>
                   {' '}
-                  <span>Population: {planets.population}</span>
+                  <span>Gender: {people.gender}</span>
                 </div>
               </div>
             </div>
@@ -43,4 +41,4 @@ const Planets = ({ data }) => {
   );
 };
 
-export default Planets;
+export default People;

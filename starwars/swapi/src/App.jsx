@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import People from './components/People';
-import Planets from './components/Planets';
+import People from './components/People/People';
+import Planets from './components/Planets/Planets';
 
 function App() {
   const [people, setPeople] = useState([]);

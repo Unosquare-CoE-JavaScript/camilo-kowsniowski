@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .home_background {
-  background-image: url('../img/grogu.png');
+  background-image: url('/src/assets/grogu.png');
   height: 1000px;
   display: block;
   background-repeat: no-repeat;
