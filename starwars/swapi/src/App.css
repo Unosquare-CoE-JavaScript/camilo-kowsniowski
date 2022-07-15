@@ -2,5 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .Background {
-  /* background-image: url('./img/stasr\ wars\ 2.jpeg'); */
+  background-image: url('./img/starwars.jpeg');
+  margin: auto;
+  width: auto;
+  height: 999px;
 }
