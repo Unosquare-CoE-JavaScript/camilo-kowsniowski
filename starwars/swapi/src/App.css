@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 .Background {
-  background-image: url('./assets/grogu.png');
-  margin: auto;
-  width: auto;
-  height: 999px;
+  background-color: #706e6e;
+  height: 550vh;
+  width: 100vw;
 }
