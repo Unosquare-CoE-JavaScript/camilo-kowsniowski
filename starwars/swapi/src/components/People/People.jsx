@@ -7,36 +7,36 @@ const People = ({ data }) => {
       {data.map((people) => {
         return (
           <>
-            <div class='card-container'>
-              <div class='cards' key={people.id}>
-                <div class='card-title'>
+            <div className='card-container'>
+              <div className='cards' key={people.id}>
+                <div className='card-title'>
                   <h2>Character Data</h2>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span class='card-text-data'>
+                  <span className='card-text-data'>
                     <b>Name:</b> {people.name}
                   </span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span class='card-text-data'>
+                  <span className='card-text-data'>
                     <b>Height:</b> {people.height}
                   </span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
                   <span>
                     <b>Mass:</b> {people.mass}
                   </span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
                   <span>
                     <b>Hair Color:</b> {people.hair_color}
                   </span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
                   <span>
                     <b>Gender:</b> {people.gender}

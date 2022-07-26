@@ -36,14 +36,13 @@ function App() {
       console.log('data', people);
     }
 
-    fetchData();
     fetchPlanets();
     fetchPeople();
   }, []);
 
   return (
     <div className='App'>
-      <header class='Background'>
+      <header className='Background'>
         <Router>
           <Navbar />
           <Routes>

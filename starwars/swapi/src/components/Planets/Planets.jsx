@@ -4,35 +4,35 @@ import './Planets.css';
 const Planets = ({ data }) => {
   return (
     <>
-      {data.map((planets, i) => {
+      {data.map((planet) => {
         return (
           <>
-            <div class='card-container'>
-              <div class='cards' key={i}>
-                <div class='card-title'>
+            <div className='card-container'>
+              <div className='cards' key={planet.id}>
+                <div className='card-title'>
                   <h4>Planets Data</h4>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span class='card-text-data'>Name: {planets.name}</span>
+                  <span className='card-text-data'>Name: {planet.name}</span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span class='card-text-data'>
-                    Rotation Period: {planets.rotation_period}
+                  <span className='card-text-data'>
+                    Rotation Period: {planet.rotation_period}
                   </span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span>Climate: {planets.climate}</span>
+                  <span>Climate: {planet.climate}</span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span>Terrain: {planets.terrain}</span>
+                  <span>Terrain: {planet.terrain}</span>
                 </div>
-                <div class='card-text'>
+                <div className='card-text'>
                   &nbsp;
-                  <span>Population: {planets.population}</span>
+                  <span>Population: {planet.population}</span>
                 </div>
               </div>
             </div>
