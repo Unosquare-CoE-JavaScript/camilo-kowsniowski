@@ -15,4 +15,6 @@
 
 * The project dependencies are being worked on, since React was updated and Auth) needs revision.
 
-->  I continue working on the project.
+->  Fixed the projects 
+
+* Added new course files ( Complete React Developer in 2023 )
