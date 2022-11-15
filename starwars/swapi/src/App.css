@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+.Background {
+  background-image: url('./img/starwars.jpeg');
+  margin: auto;
+  width: auto;
+  height: 999px;
+}
