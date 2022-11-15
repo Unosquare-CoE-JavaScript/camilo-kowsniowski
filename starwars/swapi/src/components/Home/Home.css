@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.img {
+  background-image: url('/src/assets/grogu.png');
+}
